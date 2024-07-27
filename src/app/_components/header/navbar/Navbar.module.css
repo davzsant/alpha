@@ -1,0 +1,35 @@
+
+.linksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+}
+.link{
+    display: flex;
+    gap: 10%;
+    color: white;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+.active{
+    color: var(--subColor);
+}
+
+@media screen and (max-width:1200px) {
+    .text{
+        display: none;
+    }
+}
+
+.logButton{
+    background-color: var(--mainColor);
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
