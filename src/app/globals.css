@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root{
-  --mainColor: #124494;
-  --subColor: #428aff ;
+  --mainColor: #0263fe;
+  --subColor: #6ca5ff ;
 }
 
 body{

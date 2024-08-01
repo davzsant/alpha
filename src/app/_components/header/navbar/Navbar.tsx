@@ -28,8 +28,8 @@ const links:iLinks[] = [
         icon: FaDumbbell 
     },
     {
-        path: "/calendar",
-        text: "Calendario",
+        path: "/schedule",
+        text: "Agenda de dias",
         icon: FaRegCalendarCheck
     },
     {

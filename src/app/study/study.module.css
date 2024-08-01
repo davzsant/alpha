@@ -1,0 +1,39 @@
+.subjectContainer{
+    background-color: #111;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subject{
+    background-color: #1F1F1F;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 10px;
+    border: 1px solid var(--mainColor);
+    gap: 2%;
+}
+
+.title{
+    font-size: 30px;
+    color: var(--subColor);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.linkContainer{
+    cursor: pointer;
+    background-color: var(--subColor);
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
+
+.buttonTest{
+    padding: 3%;
+    background-color: white;
+    width: 80%;
+    margin: auto;   
+}

@@ -4,6 +4,11 @@
     flex-direction: column;
     justify-content: space-around;
     height: 90vh;
+    align-items: center;
+}
+
+.text{
+    font-weight: 30px;
 }
 .link{
     display: flex;
@@ -19,17 +24,20 @@
     color: var(--subColor);
 }
 
+.logButton{
+    background-color: var(--mainColor);
+    padding: 5%;
+    text-align: center;
+    border: none;
+    width: 120%;
+}
+
 @media screen and (max-width:1200px) {
     .text{
         display: none;
     }
-}
 
-.logButton{
-    background-color: var(--mainColor);
-    padding: 5px;
-    text-align: center;
-    border: none;
-    border-radius: 20px;
-    font-size: 20px;
+    .logButton{
+        width: 200%;
+    }
 }
